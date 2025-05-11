@@ -59,5 +59,5 @@ def submit_final_query(access_token, webhook_url):
         print(" Error ", e)
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     send_startup_webhook()
